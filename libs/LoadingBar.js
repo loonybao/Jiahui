@@ -6,21 +6,21 @@ class LoadingBar{
 		this.domElement.style.left = '0';
 		this.domElement.style.width = '100%';
 		this.domElement.style.height = '100%';
-		this.domElement.style.background = '#000';
+		this.domElement.style.background = '#000'; //can change color also
 		this.domElement.style.opacity = '0.7';
 		this.domElement.style.display = 'flex';
 		this.domElement.style.alignItems = 'center';
 		this.domElement.style.justifyContent = 'center';
 		this.domElement.style.zIndex = '1111';
 		const barBase = document.createElement("div");
-		barBase.style.background = '#aaa';
+		barBase.style.background = '#aaa'; //can change color also
 		barBase.style.width = '50%';
 		barBase.style.minWidth = '250px';
 		barBase.style.borderRadius = '10px';
-		barBase.style.height = '20px';//this is 15px
+		barBase.style.height = '15px';//try 20px
 		this.domElement.appendChild(barBase);
 		const bar = document.createElement("div");
-		bar.style.background = '#22a';
+		bar.style.background = '#22a'; //can change color also
 		bar.style.width = '50%';
 		bar.style.borderRadius = '10px';
 		bar.style.height = '100%';
