@@ -107,6 +107,7 @@ class VRButton{
         button.style.right = '20px';
         button.style.width = '80px';
         button.style.cursor = 'pointer';
+        button.style.backgroundColor = 'blue'; //this no
         button.innerHTML = '<i class="fas fa-vr-cardboard"></i>';
         
 
